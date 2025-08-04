@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Tutorial</title>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+      id="theme"
+    />
+    <style>
+      body {
+        filter: invert(1) hue-rotate(180deg);
+        background: #121212;
+      }
+      
+      img {
+        filter: invert(1) hue-rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">Loading...</div>
+
+    <script>
+      window.$docsify = {
+        name: "My Docs",
+        repo: "",
+        loadSidebar: true,
+        loadNavbar: true,
+        themeColor: "#42b983",
+      };
+    </script>
+
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  </body>
+</html>
