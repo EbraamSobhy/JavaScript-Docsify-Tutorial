@@ -1,3 +1,4 @@
+  * [what is JS](/js-intro1.md)
   * [Introduction](/js-intro)
   * [Syntax](/js-syntax)
   * [Variables](/js-variables)

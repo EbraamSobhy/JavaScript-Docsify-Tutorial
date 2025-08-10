@@ -11,22 +11,38 @@
     />
     <style>
       body {
-        filter: invert(1) hue-rotate(180deg);
-        background: #121212;
-      }
-      
-      img {
-        filter: invert(1) hue-rotate(180deg);
-      }
+      filter: invert(1) hue-rotate(180deg);
+      background: #121212;
+      margin: 0;
+    }
+
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+
+    .sidebar {
+      height: 2000px;
+      font-size: 16px;
+    }
+
+    .sidebar-nav {
+      padding: 20px;
+    }
+
+    /* Hide navbar toggle button */
+    nav.app-nav li:last-child {
+    display: none !important; /* Hide the last nav button if still rendered */
+  }
     </style>
   </head>
   <body>
     <div id="app">Loading...</div>
 
+
     <script>
       window.$docsify = {
         name: "JavaScript (JS)",
-        repo: "",
+        // repo: "",
         loadSidebar: true,
         loadNavbar: true,
         themeColor: "#42b983",
