@@ -36,8 +36,12 @@ let z = x + y;
 
 ```javascript
 let name = "Alice"; // A string
+
 const age = 30; // A number
+
 let isStudent = true; // A boolean
+
 let car = { make: "Honda", model: "Civic" }; // An object
+
 let colors = ["red", "green", "blue"]; // An array
 ```

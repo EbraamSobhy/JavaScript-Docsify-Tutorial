@@ -6,7 +6,9 @@
 
 ```javascript
 console.log(person.firstName); // Output: John
+
 console.log(person["age"]); // Output: 45
+
 console.log(person.fullName()); // Output: John Doe
 ```
 
