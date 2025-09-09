@@ -7,3 +7,5 @@
   * [For-Loop](/js-forloop.md)
   * [Operators](/operators.md)
   * [Data Types](/datatypes.md)
+  * [Code Editor](/code-editor.md)
+  * [Download VS Code](/youtube.md)
